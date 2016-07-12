@@ -11,7 +11,7 @@ namespace dotnetCoreFull.Test.NUnit
     {
         [TestCase(1, 1, 2)]
         [TestCase(-1, -1, -2)]
-        [TestCase(100, 5, 106)]
+        [TestCase(100, 5, 105)]
         public void CanAddNumbers(int x, int y, int expected)
         {
             Assert.That(Calculator.Add(x, y), Is.EqualTo(expected));
