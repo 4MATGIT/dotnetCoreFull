@@ -1,4 +1,0 @@
-﻿namespace dotnetCore.Test
-{
-      
-}
