@@ -12,9 +12,9 @@ addons:
     - zlib1g
 
 before_install:
-  dotnet restore
+  - dotnet restore
 
-  dotnet test .\dotnetCoreFull\dotnetCoreFull.Test.NUnit\
+  - dotnet test .\dotnetCoreFull\dotnetCoreFull.Test.NUnit\
 
 install:
   
@@ -22,7 +22,7 @@ install:
   - dotnet restore
   # Build projects
   #- dotnet build -c $CONFIGURATION -f netcoreapp1.0 ./test/dotnetCoreFull.Test.NUnit.test.runner
-  msbuild "dotnetCoreFull\dotnetCoreFull.sln" /verbosity:minimal
+  - msbuild "dotnetCoreFull\dotnetCoreFull.sln" /verbosity:minimal
 #script:
   # Run tests
   #- dotnet run -c $CONFIGURATION -f netcoreapp1.0 -p ./test/dotnetCoreFull.Test.NUnit.test.runner
