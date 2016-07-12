@@ -6,7 +6,7 @@
       "target": "project"
     },
     "NUnit": "3.4.1",
-    "dotnet-test-nunit": "3.4.0-beta-1"
+    "dotnet-test-nunit": "3.4.0-alpha-2"
   },
 
   "testRunner": "nunit",
@@ -14,7 +14,6 @@
   "frameworks": {
     "netcoreapp1.0": {
       "imports": [
-        "netcoreapp1.0",
         "portable-net45+win8"
       ],
       "dependencies": {
