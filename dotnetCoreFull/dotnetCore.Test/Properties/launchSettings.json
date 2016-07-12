@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "newProfile1": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DNX_IIS_RUNTIME_FRAMEWORK": "DNX46"
+      }
+    }
+  }
+}
