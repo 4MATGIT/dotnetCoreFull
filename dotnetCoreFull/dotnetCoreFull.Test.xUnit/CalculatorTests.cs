@@ -7,7 +7,7 @@ using Xunit;
 
 namespace dotnetCoreFull.Test.xUnit
 {
-    public class Class1
+    public class CalculatorTests
     {
         [Fact]
         public void PassingTestAdd()
